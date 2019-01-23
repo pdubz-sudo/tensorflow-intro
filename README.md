@@ -1,4 +1,4 @@
-# into-to-tensorflow
+# intro-to-tensorflow
 
 This notebook was made by me and was used as a resource to help members of the HandsOn Data Science Meetup Group (Malmo, Sweden) learn 
 the basics of using the TenorFlow framework. This notebook provides knowledge needed to understand and write simple TensorFlow code in 
