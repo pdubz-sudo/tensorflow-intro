@@ -20,9 +20,7 @@ Content:
 3. Initialize variables + run session
 4. Cost function, optimizer, and forward and backward propagation
 5. Excercise: Solving a Linear Regression Model
-
-
-Bonus: TensorBoard
+6. Bonus: TensorBoard
 
 
 I undid pushed commits. 
