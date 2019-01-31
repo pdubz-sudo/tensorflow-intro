@@ -4,3 +4,5 @@ output/
 tensorflow.pptx
 tensorflow-slides.pptx
 parabola-example.ipynb
+answer/output/
+answer/.ipynb_checkpoints/
