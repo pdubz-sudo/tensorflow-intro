@@ -25,13 +25,16 @@ Content:
 Bonus: TensorBoard
 
 
-* I undid pushed commits. 
+I undid pushed commits. 
 Vib2006's answer was the only one that worked for me https://stackoverflow.com/questions/22682870/git-undo-pushed-commits. Revert did not work.
 This moved the local head to the commit and cleans all the commits after it.
-git log --oneline --decorate --graph
-git reset --hard <commit id here>
-git clean -f -d
+    
+    git log --oneline --decorate --graph
+    git reset --hard <commit id here>
+    git clean -f -d
 This updates all the indexes and shows what's behind compared to the remote branch
-git fetch --all
+    
+    git fetch --all
 This pushes forcefully with the "+" in front of the branch to the remote
-git push -u origin +<branch here>
+    
+    git push -u origin +<branch here>
